@@ -45,3 +45,23 @@ title>: This element sets the title of the web page, which appears in the browse
 <script src="script.js"></script>: This line includes an external JavaScript file named "script.js" that contains the logic and functionality for the quiz app. The JavaScript code will be executed when the browser encounters this script tag.<br>
 
 This is the basic structure of our quiz application using HTML, and now we can move on to styling it using CSS.<br>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">>
+    <title>Quiz Application</title>
+</head>
+<body>
+    <div class="container">
+     <h1>Quiz App</h1>   
+     <div id="quiz"></div>
+    <div id="result" class="result"></div>
+    <button id="submit" class="button">Submit</button>
+    <button id="retry" class="button hide">Retry</button>
+    <button id="showAnswer" class="button hide">Show Answer</button>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
