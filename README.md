@@ -8,60 +8,13 @@ Throughout this tutorial, we'll provide code snippets, examples, and clear expla
 
 So, Let's start making an amazing quiz application using HTML, CSS, and JavaScript step by step.<br>
 
-Step 1 (HTML Code):<br>
-
-To get started, we will first need to create a basic HTML file. In this file, we will include the main structure for our quiz application.<br>
-
-After creating the files just paste the following codes into your file. Make sure to save your HTML document with a .html extension, so that it can be properly viewed in a web browser.<br>
-
-Here is an explanation of each element:<br>
-
-<!DOCTYPE html>: This is a declaration that specifies the HTML version being used, in this case, HTML5.<br>
-
-<html>: The root element of an HTML document. It encapsulates all other elements on the page.<br>
-
-<head>: This element contains metadata and other information about the web page that is not directly displayed on the page itself.<br>
-
-title>: This element sets the title of the web page, which appears in the browser's title bar or tab.<br>
-
-<link rel="stylesheet" href="styles.css">: This line links an external CSS stylesheet file named "styles.css" to the HTML document. It is used to apply styles to the elements on the page.<br>
-
-<body>: The main content of the web page is placed within this element.<br>
-
-<div class="container">: This <div> element acts as a container for grouping and organizing other elements.<br>
-
-<h1>Quiz App</h1>: This <h1> heading element displays the text "Quiz App" as the main heading of the web page.<br>
-
-<div id="quiz"></div>: This <div> element with the id attribute "quiz" will serve as a placeholder for dynamically generated quiz questions.<br>
-
-<div id="result" class="result"></div>: This <div> element with the id attribute "result" and class attribute "result" will be used to display the quiz result.<br>
-
-<button id="submit" class="button">Submit</button>: This <button> element with the id attribute "submit" and class attribute "button" represents a button labeled "Submit." Users can click this button to submit their quiz answers.<br>
-
-<button id="retry" class="button hide">Retry</button>: This <button> element with the id attribute "retry" and class attribute "button hide" represents a button labeled "Retry." It is initially hidden (hide class), and will be displayed when the user wants to retry the quiz.<br>
-
-<button id="showAnswer" class="button hide">Show Answer</button>: This <button> element with the id attribute "showAnswer" and class attribute "button hide" represents a button labeled "Show Answer." It is initially hidden (hide class), and will be displayed to allow users to see the correct answers.<br>
-
-<script src="script.js"></script>: This line includes an external JavaScript file named "script.js" that contains the logic and functionality for the quiz app. The JavaScript code will be executed when the browser encounters this script tag.<br>
-
 This is the basic structure of our quiz application using HTML, and now we can move on to styling it using CSS.<br>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">>
-    <title>Quiz Application</title>
-</head>
-<body>
-    <div class="container">
-     <h1>Quiz App</h1>   
-     <div id="quiz"></div>
-    <div id="result" class="result"></div>
-    <button id="submit" class="button">Submit</button>
-    <button id="retry" class="button hide">Retry</button>
-    <button id="showAnswer" class="button hide">Show Answer</button>
-  </div>
-  <script src="main.js"></script>
-</body>
-</html>
+
+Creating a quiz app from scratch can be a rewarding and educational experience, and you don’t need to be an expert coder to get started. In this article, we will guide you through the process of building a quiz app using three essential web technologies: HTML, CSS, and JavaScript. We will break down the steps in a simple and easy-to-follow manner, so even beginners can embark on this exciting journey.<br>
+
+A quiz app is a dynamic web application that allows users to answer a series of questions and receive immediate feedback on their performance. This type of app can be used foreducational purposes, testing knowledge on various topics, or simply for fun. By the end of this tutorial, you’ll have the knowledge and confidence to create your own quiz app.<br>
+
+![image](https://github.com/SavvyChic42/Build-a-Quiz-Application-with-HTML-CSS-and-JavaScript/assets/151141927/377420dc-a14d-46c4-aee5-f32fac4308fe)
+
+
+
