@@ -15,7 +15,7 @@ Creating a quiz app from scratch can be a rewarding and educational experience, 
 A quiz app is a dynamic web application that allows users to answer a series of questions and receive immediate feedback on their performance. This type of app can be used foreducational purposes, testing knowledge on various topics, or simply for fun. By the end of this tutorial, you’ll have the knowledge and confidence to create your own quiz app.<br>
 
 ![image](https://github.com/SavvyChic42/Build-a-Quiz-Application-with-HTML-CSS-and-JavaScript/assets/151141927/377420dc-a14d-46c4-aee5-f32fac4308fe) <br>
-Can You Use For the Link :-![image](https://green-margo-4.tiiny.site)
+Can You Use For the Link : ![https://green-margo-4.tiiny.site]
 
 
 
